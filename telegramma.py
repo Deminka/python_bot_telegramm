@@ -21,7 +21,7 @@ def get_valute(message):
 
 @bot.message_handler(commands=["Weather"])
 def get_city(message):
-    msg = bot.send_message(message.chat.id,"Укажите, пожалуйста, ваш город")
+    msg = bot.send_message(message.chat.id,"Укажите, пожалуйста, ваш город ")
     bot.register_next_step_handler(msg, get_weather)
 
 def get_weather(message):

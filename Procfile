@@ -1,3 +1,3 @@
-web: python3 first.py
+web: python3 telegramma.py
 
-worker: python3 first.py
+worker: python3 telegramma.py
